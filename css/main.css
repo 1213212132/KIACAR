@@ -152,11 +152,6 @@ body {
 
 }
 
-.car_see {
-    display: flex;
-    gap: 30px;
-}
-
 .main_visual .main_slide .slogan p {
 
     margin: 0 0 30px 0;
@@ -278,12 +273,12 @@ body {
     font-size: 24px;
     font-weight: 400;
     text-align: center;
-    padding-top: 10%;
+    padding-top: 4%;
 }
 
 .car_bar>ul>li>h3 {
 
-    margin-bottom: 15px;
+    padding-top: 4%;
     text-align: center;
     color: #333;
 }
@@ -302,20 +297,15 @@ body {
 
 .car_bar .car_manu {
     display: grid;
-    /* grid-template-columns: repeat(3, 1fr); */
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
     gap: 60px 30px;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
     position: relative;
 
-
-    padding-bottom: 50%;
-    /* 밑부분 */
 }
-
-
 
 .car_bar .car_manu>* {
     margin-top: 20%;
@@ -324,18 +314,14 @@ body {
     padding: 30PX;
     background: #f9f9f9;
     padding-bottom: 50px;
-    margin-bottom: 50px;
 
 }
-
-
 
 .car_energy {
     display: flex;
     gap: 20px;
     margin: 0 0 0 70px;
 }
-
 
 .car_bar .car_manu p {
     display: flex;
@@ -347,7 +333,7 @@ body {
 .car_manu p~p {
 
     padding-left: 17px;
-    border-left: 1px solid black;
+    border-left: 1px solid #ddd;
 }
 
 .car_bar .car_manu img {
@@ -357,19 +343,20 @@ body {
 
 
 
+
 .car_value {
-    position: relative;
+    position: absolute;
     display: flex;
     gap: 155px;
     bottom: 170px;
-    margin-bottom: 160px;
+
 }
 
 .car_value02 {
     position: absolute;
     display: flex;
     gap: 183px;
-    bottom: 340px;
+    bottom: 140px;
 
 }
 
@@ -377,7 +364,7 @@ body {
     position: absolute;
     display: flex;
     gap: 90px;
-    bottom: 300px;
+    bottom: 110px;
 
 }
 
@@ -385,57 +372,17 @@ body {
     position: absolute;
     display: flex;
     gap: 110px;
-    bottom: 260px;
+    bottom: 80px;
 
 }
 
 .car_value05 {
     position: absolute;
     display: flex;
-    gap: 120px;
-    bottom: 170px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid black;
+    gap: 105px;
+    bottom: 10px;
 
-}
-
-.car_value06 {
-
-    position: absolute;
-    font-size: 24px;
-    font-family: 500;
-    right: 40px;
-    bottom: 130px
-}
-
-.car_value07 {
-    position: absolute;
-    display: flex;
-    gap: 30px;
-    bottom: 40px;
-    left: 60px;
-
-}
-
-.car_ser {
-
-    display: inline-block;
-    color: black;
-    align-items: center;
-    background: #fff;
-    bottom: 40px;
-    padding: 15px 15px 15px 12px;
-
-}
-
-.car_price {
-    display: flex;
-    display: inline-block;
-    color: white;
-    align-items: center;
-    background-color: #05141f;
-    border: 1px solid #05141f;
-    padding: 15px 15px 15px 12px;
+    border-bottom: 1px solid white;
 
 }
 
@@ -445,15 +392,4 @@ body {
     color: #05141f;
 
 
-}
-
-.carK8 {}
-
-.newcar {
-    display: flex;
-    gap: 155px;
-}
-
-.carnew2 {
-    padding-bottom: 20px;
 }
