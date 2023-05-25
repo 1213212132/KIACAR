@@ -165,3 +165,56 @@
     height: 100%;
     visibility: visible;
 }
+
+
+
+
+.content .con {
+    gap: 30px;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+figure {
+    position: relative;
+    flex: 1;
+    overflow: hidden;
+
+}
+
+
+ .cover {
+    position: absolute;
+    inset: 0 auto auto 100%;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    /* opacity: 0.8;
+    background: rgba(0, 0, 255); */
+    background: #ddd;
+   
+    color: #fff;
+    padding: 50px 30px;
+    transition: 0.5s
+}
+
+.cover a {
+    background: #333;
+    padding: 5px 10px;
+    margin: auto 0 0 0;
+    align-self: flex-start;
+}
+
+
+
+.content figure:hover .cover {
+
+    inset: 0 auto auto 0;
+}
+

@@ -26,6 +26,13 @@ $(function () {
         $('html, body').animate({ scrollTop: 0 }, 500);
     })
 
+    $('.arrows .left').on('click', function () {
+        $('.sub_slide').slick('slickPrev');
+    })
+    $('.arrows .right').on('click', function () {
+        $('.sub_slide').slick('slickNext');
+    });
+
 
 })
 
