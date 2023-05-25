@@ -48,10 +48,10 @@
         margin-bottom: 20%;
     }
 
-    .center li a { 
+    .center li a {
         position: absolute;
         width: 70px;
-        
+
     }
 
     .sec .tit p {
@@ -341,11 +341,12 @@
         max-width: 1200px;
         margin: 0 auto;
         padding: 0 30px;
+
         padding-bottom: 20%;
         /* 밑부분 */
     }
 
- 
+
 
     .car_bar .car_manu>* {
         margin-top: 20%;
@@ -381,7 +382,7 @@
     }
 
     .car_bar .car_manu img {
-        
+
         width: 300%;
     }
 
@@ -474,9 +475,10 @@
 
 
     }
+
     .case ul {
         font-size: 11px;
-        
+
     }
 
     .case1 {
@@ -593,42 +595,42 @@
         height: 100px;
         width: 100%;
         max-width: 1200px;
-    
-    
+
+
     }
-    
+
     .main_visual:hover .arrows {
-    
+
         display: block;
-    
+
     }
-    
+
     .main_visual .arrows i {
-    
+
         font-size: 20px;
         color: black;
         background: white;
         padding: 10px;
-    
-    
-    
+
+
+
     }
-    
+
     .main_visual .arrows .left {
-    
+
         position: absolute;
         top: 20%;
-       right: 100%;
-    
-    
+        right: 100%;
+
+
     }
-    
+
     .main_visual .arrows .right {
-    
+
         position: absolute;
         top: 20%;
         left: 50%;
         background: #05141f;
-    
-    
+
+
     }
