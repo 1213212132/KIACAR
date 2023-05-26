@@ -341,6 +341,7 @@
         max-width: 1200px;
         margin: 0 auto;
         padding: 0 30px;
+        cursor: pointer;
 
         padding-bottom: 20%;
         /* 밑부분 */
@@ -348,13 +349,26 @@
 
 
 
+    .car_bar .car_manu>li::before {
+
+        content: attr(data-title);
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        opacity: 0.5;
+        background: white;
+        color: #fff;
+        padding: 10px;
+
+    }
+
     .car_bar .car_manu>* {
         margin-top: 20%;
         position: relative;
         border: 1px solid #ddd;
-        padding: 30PX;
+        padding: 50PX;
         background: #f9f9f9;
-        padding-bottom: 50px;
+        padding-bottom: 60px;
         margin-bottom: 50px;
 
     }
@@ -489,6 +503,8 @@
         gap: 10px;
         color: white;
         background: #05141f;
+        top: 10%;
+
 
 
 
@@ -496,6 +512,11 @@
 
     }
 
+    .con .case2 {
+
+        background: #05141f;
+
+    }
 
 
     #wrap {
