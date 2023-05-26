@@ -227,12 +227,13 @@ figure {
 ul>li .sub {
 
     position: absolute;
-    top: 130px;
+    top: -100px;
     right: 80%;
     background: #fff;
     transform: translate(-50%, 0);
-    width: 100px;
+    width: 45px;
     border: 1px solid black;
+    align-items: center;
     text-align: center;
     line-height: 40px;
     opacity: 0;
@@ -244,6 +245,7 @@ ul>li .sub {
 
 
 ul>li:hover .sub {
+
     top: 90px;
     opacity: 1;
     visibility: visible;
@@ -253,7 +255,7 @@ ul>li:hover .sub {
 ul>li>a {}
 
 ul>li .sub li {
-
+    border-top: 1px solid black;
     position: relative;
     background: #fff;
     color: black;
@@ -276,26 +278,12 @@ ul>li .sub::before {
     height: 20px;
     background: #fff;
     border: 1px solid #ddd;
-}
-
-
-ul>li .sub2 {
-    display: flex;
-    position: absolute;
-    top: 130px;
-    right: 80%;
-    background: #fff;
-    transform: translate(-30%, 0);
-    width: 100px;
-    border: 1px solid black;
-    text-align: center;
-    line-height: 0px;
-    opacity: 0;
-    visibility: hidden;
-    transition: 0.5s;
-
 
 }
+
+
+
+
 
 
 ul>li:hover .sub2 {

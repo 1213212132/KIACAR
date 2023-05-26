@@ -658,3 +658,29 @@
 
 
     }
+
+    .news-content {
+
+        height: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+        -o-object-position: top center;
+        object-position: top center;
+        position: relative;
+
+        top: -155px;
+        width: 300%;
+        left: 30px;
+    }
+
+    .news-content img {
+        transition: 0.5s;
+
+    }
+
+
+
+    .news-content:hover img {
+
+        transform: scale(1.3);
+    }
